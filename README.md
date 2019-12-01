@@ -25,8 +25,6 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [Ahmet Korkmaz](https://github.com/ahmetkorkmaz3).
-
 This project is [GPL](https://linux.org.tr/gpl/) licensed.
 
 ***
