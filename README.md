@@ -4,6 +4,24 @@
 
 > Usefull and simple shell commands.
 
+## Using
+
+Clone project and copy file you want
+
+Example:
+```bash
+sudo cp git-dev /bin
+```
+
+You need to edit the permissions of the file you copied.
+
+Example:
+```bash
+sudo chmod +x git-dev
+```
+
+**You can now use the commands as you wish.**
+
 ## Author
 
 👤 **Ahmet Korkmaz**
