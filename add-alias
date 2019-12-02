@@ -1,0 +1,22 @@
+#!/bin/bash
+
+BASHRC_FILE="$HOME/.bashrc"
+BASH_PROFILE_FILE="$HOME/.bash_profile"
+
+if [ "$1" == "--help" ]
+then
+  echo "Usage:\nBla bla bla"
+elif (( $# == 2 ))
+then 
+  if [ -f $BASHRC_FILE ]
+  then
+    echo "alias $1='$2'" >> $BASHRC_FILE
+  elif [ -f $BASH_PROFILE_FILE ]
+  then
+    echo "alias $1='$2'" >> $BASH_PROFILE_FILE
+  else
+    echo "Not found bash file."
+  fi
+else
+  echo "Somethings wrong."
+fi
